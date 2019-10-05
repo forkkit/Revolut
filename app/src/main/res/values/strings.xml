@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Revolut</string>
+    <string name="rates">Rates</string>
+    <string name="currency_flags">Currency flags</string>
+</resources>
