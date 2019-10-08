@@ -144,7 +144,7 @@ object CurrencyDataHelper {
         return if (isBaseCurrency) {
             baseCurrency.value
         } else {
-            String.format(TWO_DECIMAL_PLACES, currency.rate.times(baseCurrency.rate))
+            String.format(TWO_DECIMAL_PLACES, currency.rate.times(baseCurrency.value.toDouble()))
         }
     }
 

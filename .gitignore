@@ -7,5 +7,4 @@ build/*
 *.bak
 *.swp
 local.properties
-gradle.properties
 app/.gradle/*
